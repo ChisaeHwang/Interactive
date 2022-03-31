@@ -33,7 +33,7 @@ main {
   position: relative;
   width: 600px;
   height: 600px;
-  background: #10264a;
+  background: url(../img/photo10.png) center center/450px no-repeat;
   -webkit-transform: rotateX(3deg);
           transform: rotateX(3deg);
   -webkit-transform-origin: bottom center;
@@ -45,6 +45,17 @@ main {
   border-radius: 10px 10px 0 0;
 }
 
+.contentWrap .front .mountine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: url(../img/photo1.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 10px);
+          transform: translate3d(30px, 50px, 10px);
+}
+
 .contentWrap .front .sun {
   position: absolute;
   top: 0;
@@ -52,6 +63,17 @@ main {
   width: 600px;
   height: 600px;
   background: url(../img/photo2.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 10px);
+          transform: translate3d(30px, 50px, 10px);
+}
+
+.contentWrap .front .cloud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: url(../img/photo3.png) center center/450px no-repeat;
   -webkit-transform: translate3d(30px, 50px, 10px);
           transform: translate3d(30px, 50px, 10px);
 }

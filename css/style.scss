@@ -28,13 +28,23 @@ main {
         position: relative;
         width: 600px;
         height: 600px;
-        background: #10264a;
+        background: url(../img/photo10.png) center center / 450px no-repeat;
         
         transform: rotateX(3deg);
         transform-origin: bottom center;
         transform-style: preserve-3d;
         perspective: 800px;
         border-radius: 10px 10px 0 0;
+
+        .mountine {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/photo1.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 10px);
+        }
 
         .sun {
             position: absolute;
@@ -43,6 +53,16 @@ main {
             width: 600px;
             height: 600px;
             background: url(../img/photo2.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 10px);
+        }
+
+        .cloud {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/photo3.png) center center / 450px no-repeat;
             transform: translate3d(30px, 50px, 10px);
         }
     }
