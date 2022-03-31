@@ -31,9 +31,9 @@ main {
 
 .contentWrap .front {
   position: relative;
-  width: 600px;
-  height: 600px;
-  background: url(../img/photo10.png) center center/450px no-repeat;
+  width: 660px;
+  height: 700px;
+  background: url(../img/starryNight.png) center center/450px no-repeat;
   -webkit-transform: rotateX(3deg);
           transform: rotateX(3deg);
   -webkit-transform-origin: bottom center;
@@ -51,18 +51,18 @@ main {
   left: 0;
   width: 600px;
   height: 600px;
-  background: url(../img/photo1.png) center center/450px no-repeat;
-  -webkit-transform: translate3d(30px, 50px, 10px);
-          transform: translate3d(30px, 50px, 10px);
+  background: url(../img/mountine.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 45px);
+          transform: translate3d(30px, 50px, 45px);
 }
 
-.contentWrap .front .sun {
+.contentWrap .front .moon {
   position: absolute;
   top: 0;
   left: 0;
   width: 600px;
   height: 600px;
-  background: url(../img/photo2.png) center center/450px no-repeat;
+  background: url(../img/Moon.png) center center/450px no-repeat;
   -webkit-transform: translate3d(30px, 50px, 10px);
           transform: translate3d(30px, 50px, 10px);
 }
@@ -73,8 +73,52 @@ main {
   left: 0;
   width: 600px;
   height: 600px;
-  background: url(../img/photo3.png) center center/450px no-repeat;
-  -webkit-transform: translate3d(30px, 50px, 10px);
-          transform: translate3d(30px, 50px, 10px);
+  background: url(../img/cloud.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 30px);
+          transform: translate3d(30px, 50px, 30px);
+}
+
+.contentWrap .front .houses {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: url(../img/bottom.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 20px);
+          transform: translate3d(30px, 50px, 20px);
+}
+
+.contentWrap .front .star1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: url(../img/star.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 18px);
+          transform: translate3d(30px, 50px, 18px);
+}
+
+.contentWrap .front .star2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: url(../img/star2.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 32px);
+          transform: translate3d(30px, 50px, 32px);
+}
+
+.contentWrap .front .star3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: url(../img/star3.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 42px);
+          transform: translate3d(30px, 50px, 42px);
 }
 /*# sourceMappingURL=style.css.map */
