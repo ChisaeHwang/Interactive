@@ -28,7 +28,7 @@ main {
         position: relative;
         width: 660px;
         height: 700px;
-        background: url(../img/starryNight.png) center center / 450px no-repeat;
+        // background: url(../img/starryNight.png) center center / 450px no-repeat;
         
         transform: rotateX(3deg);
         transform-origin: bottom center;
@@ -46,6 +46,16 @@ main {
             transform: translate3d(30px, 50px, 45px);
         }
 
+        .sky {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/sky.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 10px);
+        }
+
         .moon {
             position: absolute;
             top: 0;
@@ -53,7 +63,7 @@ main {
             width: 600px;
             height: 600px;
             background: url(../img/Moon.png) center center / 450px no-repeat;
-            transform: translate3d(30px, 50px, 10px);
+            transform: translate3d(30px, 50px, 20px);
         }
 
         .cloud {
@@ -73,7 +83,7 @@ main {
             width: 600px;
             height: 600px;
             background: url(../img/bottom.png) center center / 450px no-repeat;
-            transform: translate3d(30px, 50px, 20px);
+            transform: translate3d(30px, 50px, 25px);
         }
 
         .star1 {

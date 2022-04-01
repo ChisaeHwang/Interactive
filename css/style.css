@@ -33,7 +33,6 @@ main {
   position: relative;
   width: 660px;
   height: 700px;
-  background: url(../img/starryNight.png) center center/450px no-repeat;
   -webkit-transform: rotateX(3deg);
           transform: rotateX(3deg);
   -webkit-transform-origin: bottom center;
@@ -56,6 +55,17 @@ main {
           transform: translate3d(30px, 50px, 45px);
 }
 
+.contentWrap .front .sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background: url(../img/sky.png) center center/450px no-repeat;
+  -webkit-transform: translate3d(30px, 50px, 10px);
+          transform: translate3d(30px, 50px, 10px);
+}
+
 .contentWrap .front .moon {
   position: absolute;
   top: 0;
@@ -63,8 +73,8 @@ main {
   width: 600px;
   height: 600px;
   background: url(../img/Moon.png) center center/450px no-repeat;
-  -webkit-transform: translate3d(30px, 50px, 10px);
-          transform: translate3d(30px, 50px, 10px);
+  -webkit-transform: translate3d(30px, 50px, 20px);
+          transform: translate3d(30px, 50px, 20px);
 }
 
 .contentWrap .front .cloud {
@@ -85,8 +95,8 @@ main {
   width: 600px;
   height: 600px;
   background: url(../img/bottom.png) center center/450px no-repeat;
-  -webkit-transform: translate3d(30px, 50px, 20px);
-          transform: translate3d(30px, 50px, 20px);
+  -webkit-transform: translate3d(30px, 50px, 25px);
+          transform: translate3d(30px, 50px, 25px);
 }
 
 .contentWrap .front .star1 {
