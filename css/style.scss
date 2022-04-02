@@ -115,5 +115,45 @@ main {
             background: url(../img/star3.png) center center / 450px no-repeat;
             transform: translate3d(30px, 50px, 42px);
         }
+
+        .star4 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star4.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 25px);
+        }
+
+        .star5 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star5.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 37px);
+        }
+
+        .star6 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star6.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 50px);
+        }
+
+        .star7 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star7.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 29px);
+        }
     }
 }
