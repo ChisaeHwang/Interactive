@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+
+body {
+    overflow: hidden;
+    font-size: 16px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+video {
+    position: absolute;
+    left: 10%;
+    height: 450px;
+    z-index: -99;
+}
+
+.background {
+    position: absolute;
+    background: url(../img/background.png) no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+main {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    transform-style: preserve-3d;
+    perspective: 800px; //원근
+    z-index: 10000;
+}
+
+.contentWrap {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 800px; //원근
+
+    .front {
+        position: relative;
+        width: 660px;
+        height: 700px;
+        
+        transform: rotateX(3deg);
+        transform-origin: bottom center;
+        transform-style: preserve-3d;
+        perspective: 800px;
+        border-radius: 10px 10px 0 0;
+
+        .mountine {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/mountine.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 45px);
+        }
+
+        .sky {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/sky.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 10px);
+        }
+
+        .moon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/Moon.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 20px);
+        }
+
+        .cloud {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/cloud.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 30px);
+        }
+
+        .houses {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/bottom.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 25px);
+        }
+
+        .star1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 18px);
+        }
+
+        .star2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star2.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 32px);
+        }
+
+        .star3 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star3.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 42px);
+        }
+
+        .star4 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star4.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 25px);
+        }
+
+        .star5 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star5.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 37px);
+        }
+
+        .star6 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star6.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 50px);
+        }
+
+        .star7 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: 600px;
+            background: url(../img/star7.png) center center / 450px no-repeat;
+            transform: translate3d(30px, 50px, 29px);
+        }
+    }
+}
