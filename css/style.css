@@ -8,6 +8,7 @@ body {
 video {
   position: absolute;
   left: 10%;
+  top: 0px;
   height: 450px;
   z-index: -99;
 }
@@ -17,6 +18,8 @@ video {
   background: url(../img/background.png) no-repeat;
   width: 100%;
   height: 100%;
+  top: 0px;
+  left: 0px;
 }
 
 main {
